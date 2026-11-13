@@ -1,0 +1,103 @@
+:root {
+  --ink: #142033;
+  --muted: #5c6b7a;
+  --line: #e4eaf1;
+  --paper: #f6f8fb;
+  --card: #ffffff;
+  --accent: #2e8fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.55;
+}
+
+a {
+  color: var(--accent);
+}
+
+header {
+  background: #0f1c2e;
+  color: #fff;
+}
+
+.bar {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  color: #d5e4f5;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 36px 20px 64px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 28px 24px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  margin: 28px 0 8px;
+  font-size: 1.15rem;
+}
+
+.lede,
+.meta {
+  color: var(--muted);
+}
+
+.meta {
+  margin: 0 0 20px;
+  font-size: 0.92rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li + li {
+  margin-top: 6px;
+}
