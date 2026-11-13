@@ -1,6 +1,6 @@
 # joinhaam
 
-Public site for HAAM. GitHub Pages hosts it until it moves to joinhaam.com.
+Public site for haam. GitHub Pages hosts it until it moves to joinhaam.com.
 
 Pages:
 
